@@ -1,0 +1,11 @@
+rootProject.name = 'gradle-java-project-0030'
+
+rootProject.children.each {
+   it.buildFileName = "${it.name}.gradle"
+}
+
+include 'entry'
+include 'service'
+include 'mapper'
+include 'controller'
+
